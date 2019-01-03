@@ -35,7 +35,7 @@ pub struct URLBuilder {
     params: HashMap<String, String>,
 }
 
-impl<'a> URLBuilder {
+impl URLBuilder {
     /// Use this method to create a new URLBuilder instance
     /// 
     /// # Example
